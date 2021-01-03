@@ -14,4 +14,103 @@
   color: white;
 }
 
+#about-section {
+  padding-left: 10%;
+  padding-top: 1em;
+  display: block;
+}
+
+#about {
+  font-size: 55px;
+  padding-right: 20px;
+  padding-bottom: 1em;
+}
+
+#about-description {
+  font-size: 30px;
+  padding: 20px;
+  display: inline-flex;
+}
+
+#nav-name {
+  font-size: 40px;
+}
+
+#port-div {
+  padding: 1em;
+}
+
+#portfolio {
+  font-size: 55px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.column {
+  flex: 25%;
+  max-width: 100%;
+  
+}
+
+.column img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+}
+
+#photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.content:hover #overlay {
+  opacity: 1;
+}
+
+#text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 40px;
+}
+
+#contact-form {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 
