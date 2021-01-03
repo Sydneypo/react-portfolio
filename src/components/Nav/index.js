@@ -1,33 +1,26 @@
 import React from 'react';
 
 
+
 function Nav() {
 
     return(
-        <header>
-            <h2>
-                <a href="/">
-                    <span>Sydney Porter</span>
-                </a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">
-                            About me
-                        </a>
-                    </li>
-                    <li>
-                        <span>Portfolio</span>
-                    </li>
-                    <li>
-                        <span>Contact</span>
-                    </li>
-                    <li>
-                        <span>Resume</span>
-                    </li>
-                </ul>
-            </nav>
+        <header className="navbar navbar-expand-lg navbar-light bg-light">
+            <a className="navbar-brand" href="/">Sydney Porter</a>
+            <ul className="nav nav-pills">
+                <li className="nav-item">
+                    <a className="nav-link" href="#About">About Me</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#Portfolio">Portfolio</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#Contact">Contact Me</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#Resume">Resume</a>
+                </li>
+            </ul>
         </header>
     );
 }
