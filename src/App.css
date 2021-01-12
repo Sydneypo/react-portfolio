@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 };
 
 .App-header {
@@ -12,10 +11,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+
+#nav-header ul {
+  font-size: 30px;
+}
+
+
+.nav-link {
+  color: black;
+
 }
 
 #about-section {
-  padding-left: 10%;
+  padding-left: 1em;
   padding-top: 1em;
   display: block;
 }
@@ -26,14 +36,26 @@
   padding-bottom: 1em;
 }
 
+#img-container {
+  width: 50%;
+  margin: 2em;
+}
+
+#about-image {
+  width: 70%;
+  
+}
+
 #about-description {
   font-size: 30px;
-  padding: 20px;
+  margin: 2em;
+  padding: 2em;
   display: inline-flex;
 }
 
 #nav-name {
-  font-size: 40px;
+  font-size: 50px;
+  margin: 0.5em;
 }
 
 #port-div {
@@ -41,64 +63,36 @@
 }
 
 #portfolio {
-  font-size: 55px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2em;
+  font-size: 70px;
+  padding: 0.5em;
 }
 
 .column {
-  flex: 25%;
-  max-width: 100%;
+  margin: 2em;
+}
+.content {
+  margin: 2em;
+  border: 2px solid black;
   
 }
 
-.column img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-.content {
-  position: relative;
-  width: 100%;
-}
-
 #photo {
-  display: block;
   width: 100%;
-  height: auto;
-}
-
-#overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  padding: 2em;
 }
 
-.content:hover #overlay {
-  opacity: 1;
+.content h3 {
+  font-size: 4em;
+  padding-left: 1em;
+  
 }
 
-#text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.content h4 {
+  font-size: 3em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+
 }
 
 .contact {
@@ -111,6 +105,26 @@
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.resume-link {
+  font-size: 40px;
+  padding: 2em;
+  
+}
+
+#resume {
+  color: black;
+}
+
+#footer {
+  margin-top: 1em;
+  padding-left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 

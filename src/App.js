@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,7 +15,9 @@ function App() {
       case 'Portfolio':
         return <Portfolio></Portfolio>;
       case 'Contact':
-        return <Contact></Contact>
+        return <Contact></Contact>;
+      case 'Resume':
+        return <Resume></Resume>;
       default: 
         return <About></About>;
     }

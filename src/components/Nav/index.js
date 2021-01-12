@@ -6,7 +6,7 @@ function Nav(props) {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return(
-        <header className="navbar navbar-expand-lg navbar-light bg-light">
+        <header className="navbar navbar-expand-lg navbar-light bg-light" id="nav-header" >
             <a className="navbar-brand" id="nav-name" href="/">Sydney Porter</a>
             <ul className="nav nav-tabs">
                 {tabs.map(tab => (
